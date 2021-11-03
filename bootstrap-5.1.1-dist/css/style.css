@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+#support{
+	margin-top: 7px;
+	text-align: right;
+	padding-bottom: 5px;
+}
+/*chỉnh thanh tìm kiếm và giỏ hàng*/
+.khoi1{
+	color:white;
+	margin-top: 15px;
+}
+/*chỉnh thanh thông báo, hỗ trợ, dk, đăng nhập*/
+#the{
+	border: none;
+}
+/* chỉnh thanh tìm kiếm*/
+.form {
+	position: relative
+}
+
+.form .fa-search {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	color: #9ca3af
+}
+
+.form span {
+	position: absolute;
+	right: 17px;
+	top: 13px;
+	padding: 2px;
+	border-left: 1px solid #d1d5db
+}
+
+.form-input {
+	/*height: 55px;*/
+	text-indent: 33px;
+	border-radius: 10px;
+	width: 580px;
+	height: 35px
+}
+/*kết thúc chỉnh thanh tìm kiếm*/
+#title{
+	/*position: fixed;*/
+}
+/*chỉnh tên trang web*/
+#td{
+	/*display:inline-flex;*/
+	padding-left:5px;
+	font-size: 40px;
+	color:white;
+	text-decoration: none;
+	font-weight: 700 ;
+	font-style: italic ;
+}
+
+#nut_reset{
+	text-align: right;
+}
+#hinh{
+	/*margin-right: 0px;*/
+	font-size: 2.7rem;
+	padding-left: 37px;
+}
+#cart{
+	font-size: 1.8rem;
+	padding-top:5px;
+}
+.card-title{
+	font-size: 18px;
+}
+#doan{
+	margin-bottom: 1px;
+	text-align: center;
+}
+.lien_ket{
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.lien_ket a{
+	width: 150px;
+}
+#dn{
+	color:red;
+}
+#dn:hover{
+	cursor: pointer;
+}
+
+#listItem a{
+	width: 170px;
+}
+#price{
+	color: red;
+	font-weight: bold;
+}
+/*màu chữ cho số tiền*/
+#form_dk span{
+	color:red;
+}
+/*thay đổi con trỏ chuột cho danh mục sản phẩm*/
+.catalog:hover{
+	cursor: pointer;
+}
+/*chỉnh thanh thank you */
+.thanks{
+	background-color: #0879c9; 
+	margin-top: 20px;
+}
+/*chỉnh trang xem chi tiết sp*/
+.content{
+	padding-top: 20px;
+}
+.thank_ct{
+	background-color: #0879c9;
+	margin-top: 200px;
+}
