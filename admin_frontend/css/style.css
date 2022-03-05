@@ -1,0 +1,35 @@
+/*hover mouse a*/
+*{
+	margin:0;
+	padding: 0;
+}
+.btn-add{
+	margin-bottom: 20px;
+}
+#col-img{
+	width: 100px;
+}
+#nut_edit{
+	color:navy;
+}
+#nut_del {
+	color:red;
+}
+.ad-image_product{
+	width: 55%;
+	height: 55%;
+}
+.img{
+	text-align: center;
+}
+.discreption_pro{
+	font-size: 14px;
+}
+.description{
+	color:#858796;
+}
+
+.description:hover{
+	text-decoration: none;
+	color:#858796;
+}
