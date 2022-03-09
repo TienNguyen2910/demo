@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Client</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-5.1.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-5.1.1-dist/css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-5.1.1-dist/fontawesome-free-5.15.4/css/all.min.css">
+</head>
+<body>
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Đăng ký</h4>
+				<a href="login_client.html" id="dn">Đăng nhập</a>
+			</div>
+			<div class="modal-body">
+				<form action="xu_ly_register_client.php" method="POST" enctype="multipart/form-data" onsubmit="return check()" id="form_dk">
+					<div class="row">
+						<div class="mb-3">
+							<input type="text" class="form-control" id="name" required placeholder="Nhập tên đăng nhập vào" name="tenkh">
+							<span id="ten"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="mb-3">
+							<input type="email" class="form-control" id="email" required placeholder="Nhập email của bạn vào" name="email">
+						</div>
+					</div>
+					<div class="row">
+						<div class="mb-3">
+							<input type="number" class="form-control" id="phone" required name="phone"  placeholder="Nhập số điện thoại của bạn vào">
+							<span id="sdt"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="mb-3">
+							<input type="password" class="form-control" id="pass" required placeholder="Nhập mật khẩu của bạn" name="pass">
+							<span id="mk"></span>
+						</div>
+					</div>
+					<div class="row" style="text-align: right">
+						<div class="md-3">
+							<button type="reset" class="btn btn-secondary">Làm lại</button>
+							<button type="submit" class="btn btn-primary" >Đăng ký</button>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- Load jquery trước khi load bootstrap js -->
+	<script type="text/javascript" src="bootstrap-5.1.1-dist/js/myscript.js"></script>
+	<script type="text/javascript" src="bootstrap-5.1.1-dist/js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

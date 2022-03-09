@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-5.1.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap-5.1.1-dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.1.1-dist/fontawesome-free-5.15.4/css/all.min.css">
+</head>
+<body>
+	<form action='update_giohang.php' method='GET' enctype='multipart/form-data'>
+		<input type='hidden' name='idsp' value='3'>
+		<tr>
+			<td></td>
+			<td><img src='./img/dell i5.jpg' width='60%'height='60%'></td>
+			<td><input type='number' name='sl' min='1' value='2'></td>
+			<td>Laptop Dell Vostro 3568 i5 7200U</td>
+			<td>14,590,000đ</td>
+			<td>
+				<button type='submit' class='nut_del'><i class='fas fa-pen-fancy'></i>Cập nhật</button>
+				<a href='delete_giohang.php?idsp=".$rows['id_giohang']."' class='nut_del'><i class='far fa-trash-alt'></i> Xoá</a>
+			</td>
+		</tr>
+	</form>
+	<form action='update_giohang.php' method='GET' enctype='multipart/form-data'>
+		<input type='hidden' name='idsp' value='3'>
+		<tr>
+			<td></td>
+			<td><img src='./img/oppo.jpg' width='60%'height='60%'></td>
+			<td><input type='number' name='sl' min='1' value='2'></td>
+			<td>Điện thoại Oppo A92</td>
+			<td>5,696,000đ</td>
+			<td>
+				<button type='submit' class='nut_del'><i class='fas fa-pen-fancy'></i>Cập nhật</button>
+				<a href='delete_giohang.php?idsp=".$rows['id_giohang']."' class='nut_del'><i class='far fa-trash-alt'></i> Xoá</a>
+			</td>
+		</tr>
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Client</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-5.1.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-5.1.1-dist/css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-5.1.1-dist/fontawesome-free-5.15.4/css/all.min.css">
+</head>
+<body>
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+				<a href="register_client.html" id="dn">Đăng ký</a>
+			</div>
+			<div class="modal-body">
+				<form action="xuly_login.php" method="POST" enctype="multipart/form-data">
+					<div class="row">
+						<div class="mb-3">
+							<input type="text" class="form-control" required name="tendn" placeholder="Nhập tên của bạn vào">
+						</div>
+					</div>
+					<div class="row">
+						<div class="mb-3">
+							<input type="password" class="form-control" required name="pass" placeholder="Nhập password của bạn vào">
+						</div>
+					</div>
+					<div class="row" style="text-align: right">
+						<div class="mb-3">
+							<input type="reset" class="btn btn-secondary" value="Làm lại">
+							<input type="submit" class="btn btn-primary" value="Đăng nhập">
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- <p id="doan">Hoặc đăng nhập bằng Facebook or Google</p>
+			<hr>
+			<div class="row lien_ket">
+				<div class="col-md-6">
+					<a href="" class="btn btn-primary"><i class="fab fa-facebook"></i> Facebook</a>
+				</div>
+				<div class="col-md-6">
+					<a href="" class="btn btn-danger"><i class="fab fa-google-plus-g"></i> Google</a>
+				</div>
+			</div> -->
+			<div class="modal-footer">
+
+				</div>
+		</div>
+	</div>
+	<!-- Load jquery trước khi load bootstrap js -->
+	<script type="text/javascript" src="bootstrap-5.1.1-dist/js/myscript.js"></script>
+	<script type="text/javascript" src="bootstrap-5.1.1-dist/js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

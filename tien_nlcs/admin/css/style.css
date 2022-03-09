@@ -1,0 +1,13 @@
+/*hover mouse a*/
+#quanly a:hover{
+	cursor: pointer;
+}
+#cot_anh{
+	width: 100px;
+}
+#nut_edit{
+	color:navy;
+}
+#nut_del {
+	color:red;
+}
